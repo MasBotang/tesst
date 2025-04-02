@@ -32,13 +32,57 @@ body{
     
 }
 .container-cover-kiri{
+    position: relative;
     flex: 0 0 65vw;
-    background-image: url(.//img/img-kiri.png);
+    background-image: linear-gradient(to top, 
+        rgba(42, 40, 40, 0.987) 0%, 
+        rgba(33, 31, 31, 0.717) 20%, 
+        rgba(255, 255, 255, 0.105) 60%), 
+        url(./img/img-kiri.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:  cover;
     background-position: center;
 }
-
+.scroll-item p{
+    position: absolute;
+    margin-right: 10px;
+    font-size: 1.5vw;
+    bottom: 12%;
+    left: 10%;
+    color: rgb(240, 248, 255);
+}
+.scroll-item i{
+    position: absolute;
+    margin-right: 10px;
+    font-size: 2.5vw;
+    bottom: 25%;
+    left: 15%;
+    color: rgb(240, 248, 255);
+    animation: moveIcon 2s ease infinite ;
+}
+@keyframes moveIcon {
+    0% {
+        transform: translateY(0); /* Posisi awal */
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(35px); /* Bergerak turun 20px */
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0); /* Kembali ke posisi awal */
+        opacity: 0;
+    }
+}
+.container-cover-kiri h1{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    letter-spacing: 0.8vw;
+    font-size: 3vw;
+    color: aliceblue;
+    margin: auto;
+}
 .container-cover-kanan{
     flex: 0 0 35vw;
     position: relative;
@@ -73,7 +117,7 @@ body{
 
     color: white;
 }
-.overlay-text-cover-kanan h1{
+.overlay-text-cover-kanan h2{
     font-weight: normal;
     font-size: 2vw;
 }
@@ -110,26 +154,3 @@ body{
     background-position: center;
 }
 
-@media (max-width: 1024px) {
-    .container-cover-kiri{
-        display: none;
-    }
-    .container-cover-kanan{
-        flex: 1;
-    }
-}
-@media (max-width: 768px) {
-    .container-cover-kiri{
-        display: none;
-    }
-    .container-cover-kanan{
-        flex:1;
-        max-width: 768px;
-        height: 100vh;
-    }
-    .container-cover-kanan h1,
-    .container-cover-kanan span{
-        font-size: 4vw;
-    }
-    
-}
