@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: "Cormorant Garamond", serif;
+}
+/* general */
+.btn{
+    padding: 0.2vw 0.5vw;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0.76);
+}
+.btn:active{
+    background-color: rgba(71, 83, 94, 0.986);
+}
+
+/* Section 1 */
+#cover{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container-cover-kiri{
+    flex: 0 0 65vw;
+    background-image: url(.//img/img-kiri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-cover-kanan{
+    flex: 0 0 35vw;
+    position: relative;
+    background: url(.//img/img-kanan.png) center/cover no-repeat;
+    overflow: hidden;
+}
+.container-cover-kanan::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+.container-cover img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.overlay-text-cover-kanan{
+    z-index: 2;
+    position: absolute;
+    width: 100% ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+.overlay-text-cover-kanan h1{
+    font-weight: normal;
+    font-size: 2vw;
+}
+.overlay-text-cover-kanan span{
+    font-size: 2vw;
+    font-weight: normal;
+}
+.button-cover{
+    margin-top: 3vw;
+    
+}
+
+/* main */
+#main{
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    color: #000;
+}
+.container-main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-main-1  img{
+    width: 27vw;
+    height: 25vw;
+    background-size: auto;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+    .container-cover-kiri{
+        display: none;
+    }
+    .container-cover-kanan{
+        flex: 1;
+    }
+}
+@media (max-width: 768px) {
+    .container-cover-kiri{
+        display: none;
+    }
+    .container-cover-kanan{
+        flex:1;
+        max-width: 768px;
+        height: 100vh;
+    }
+    .container-cover-kanan h1,
+    .container-cover-kanan span{
+        font-size: 4vw;
+    }
+    
+}
