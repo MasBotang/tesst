@@ -11,12 +11,12 @@ body{
 }
 /* general */
 .btn{
-    padding: 0.2vw 0.5vw;
+    padding: 0.5cqw 3cqw;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     border: none;
     cursor: pointer;
-    font-size: 1.5vw;
+    font-size: 2.5cqw;
     outline: none;
     background-color: rgba(155, 158, 160, 0.986);
 
@@ -116,7 +116,6 @@ body{
 .container-kanan-1{
     display: flex;
     justify-content: center;
-    width: 100%;
     text-align: center;
     background: url(.//img/img-kanan.png) center/cover no-repeat;
 
@@ -149,6 +148,11 @@ body{
 .overlay-kanan > .button-cover{
     margin-top: 2cqw;
 }
+.button-cover button{
+    padding: 1cqw 3cqw;
+    font-size: 5cqw;
+    margin: 3cqw auto;
+}
 
 /* container-kanan-2 */
 .container-kanan-2{
@@ -156,14 +160,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6cqw auto;
+    margin: 10cqw auto;
 }
 .jumbotron{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3cqw;
+    gap: 7cqw;
 }
 .jumbotron h1{
     font-family: "Cormorant Garamond", serif;
@@ -174,19 +178,18 @@ body{
 }
 .jumbotron img{
     width: 60cqw;
-    height: 80cqw;
+    height: 90cqw;
 }
 .decore{
     width: 100%;
 }
 .decore svg{
-    margin: -10cqw 0 0;
+    margin: -5cqw 0 0;
     width: 100cqw;
 }
 .message{
     text-align: center;
     font-size: 4cqw;
-    margin-top: -2cqw;
 }
 
 /* Container 3 */
