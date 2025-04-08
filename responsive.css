@@ -1,20 +1,9 @@
-@media (max-width: 768px) {
-    #cover{
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100vw;
-    }
-    .container-cover-kiri{
+@media screen and (max-width: 1024px) {
+    .container-kiri {
         display: none;
+        width: 0vw;
     }
-    .container-cover-kanan{
-        min-height: 100vh;
+    .container-kanan{
         width: 100vw;
+        margin: auto;
     }
-    .container-cover-kanan h2,
-    .container-cover-kanan span{
-        font-size: 4vw;
-    }
-    
-}
