@@ -177,8 +177,8 @@ body{
     letter-spacing: 1cqw;
 }
 .jumbotron img{
-    width: 60cqw;
-    height: 90cqw;
+    width: 70cqw;
+    height: 110cqw;
 }
 .decore{
     width: 100%;
@@ -949,4 +949,68 @@ body{
     font-weight: normal;
     margin: auto;
 }
+/* .container-cover-kanan::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+.container-cover img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.overlay-text-cover-kanan{
+    z-index: 2;
+    position: absolute;
+    width: 100% ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+.overlay-text-cover-kanan h2{
+    font-weight: normal;
+    font-size: 2cqw;
+}
+.overlay-text-cover-kanan span{
+    font-size: 2vw;
+    font-weight: normal;
+}
+.button-cover{
+    margin-top: 3vw;
+    
+}
+
+/* main
+#main{
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    color: #000;
+}
+.container-main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-main-1  img{
+    width: 27vw;
+    height: 25vw;
+    background-size: auto;
+    background-position: center;
+} */
 
