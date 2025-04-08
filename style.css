@@ -160,7 +160,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10cqw auto;
+    margin: 40cqw auto;
 }
 .jumbotron{
     display: flex;
@@ -177,8 +177,8 @@ body{
     letter-spacing: 1cqw;
 }
 .jumbotron img{
-    width: 80cqw;
-    height: 110cqw;
+    width: auto;
+    height: 100cqw;
 }
 .decore{
     width: 100%;
@@ -196,7 +196,7 @@ body{
 .container-kanan-3{
     display: flex;
     flex-direction: column;
-    margin: 20cqw auto 2cqw;
+    margin: 20cqw auto 0;
 }
 .hari,
 .tanggal{
@@ -220,7 +220,7 @@ body{
     margin-top: 3cqw;
 }
 .qoutes{
-    margin: 6cqw 6cqw;
+    margin: 10cqw 6cqw 15cqw;
     text-align: center;
 }
 .qoutes blockquote p{
@@ -228,23 +228,24 @@ body{
 }
 .qoutes blockquote footer{
     font-size: 3cqw;
-    margin: 10cqw auto;
+    margin: 5cqw auto;
 }
 .decore-qoute{
     background: url(./img/decore-qoute.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 1cqw;
-    margin: 5cqw auto 10cqw;
+    margin: 15cqw auto 0;
 }
 
 /* container 4 */
 .container-kanan-4{
-    margin: 10cqw auto;
+    
 }
 .container-kanan-4 >.qoutes blockquote{
     letter-spacing: 0.5px;
 }
+
 /* container 5 */
 .container-kanan-5{
     width: 100%;
@@ -287,7 +288,7 @@ body{
     text-align: justify;
 }
 .isi-love-story{
-    margin: 2cqw 3cqw;
+    margin: 5cqw 3cqw;
     font-size: 3.5cqw;
 }
 .love-story-2{
@@ -302,13 +303,13 @@ body{
     justify-content: space-between;
 }
 .wrapper-lv-1 p{
-    margin: 1cqw 3cqw 0;
+    margin: 5cqw 0 1cqw 3cqw;
     text-align: justify;
     font-size: 3.5cqw;
 }
 
 .wrapper-lv-2 p{
-    margin: 0 3cqw 1cqw;
+    margin: 0 3cqw 1cqw 0;
     text-align: justify;
     font-size: 3.5cqw;
 }
@@ -329,7 +330,7 @@ body{
     margin-top: 2cqw;
 }
 .container-kanan-6 p{
-    margin: auto 3cqw;
+    margin: 3cqw 3cqw 0;
     font-size: 3.5cqw;
     text-align: justify;
 }
@@ -342,7 +343,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 10cqw;
+    margin-bottom: 32cqw;
 }
 .wanita,
 .lakilaki{
@@ -356,7 +357,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 1.5cqw;
+    margin: 0 5cqw;
 }
 .lakilaki > .deskripsi{
     align-items: end;
@@ -385,7 +386,7 @@ body{
 }
 .dan{
     font-size: 6cqw;
-    margin: 10cqw auto;
+    margin: 20cqw auto;
     font-weight: 600;
 }
 
@@ -402,14 +403,13 @@ body{
     gap: 2cqw;
 }
 .hari{
-    margin-right: auto;
     font-size: 6cqw;
-    margin-left: 3cqw;
+    margin: 0 auto 3cqw 3cqw;
     font-weight: normal;
     letter-spacing: 0.1cqw;
 }
 .tanggal{
-    margin: 0 3cqw 5cqw auto;
+    margin: 3cqw 3cqw 5cqw auto;
     font-size: 6cqw;
     font-weight: normal;
     letter-spacing: 0.2cqw;
@@ -446,7 +446,7 @@ body{
     margin: 1cqw 0;
 }
 .lokasi h3{
-    margin: 3cqw auto;
+    margin: 5cqw auto;
     font-size: 6cqw;
     font-weight: normal;
     text-transform: uppercase;
@@ -489,9 +489,9 @@ body{
     align-items: center;
 }
 .container-kanan-9 p{
-    margin: 6cqw 6cqw 0;
+    margin: 6cqw 6cqw;
     text-align: justify;
-    font-size: 4cqw;
+    font-size: 4.5cqw;
 }
 .container-kanan-9 img{
     width: 100%;
@@ -502,11 +502,11 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 3cqw;
-    margin: 15cqw auto;
+    margin: 15cqw auto 21cqw;
 }
 .dresscode h3,
 .dresscode h4{
-    font-size: 4cqw;
+    font-size: 6cqw;
     font-weight: normal;
 }
 .dresscode h3{
@@ -521,7 +521,7 @@ body{
 
 /* container 10 */
 .container-kanan-10{
-    margin: 10cqw 2cqw;
+    margin: 30cqw 2cqw;
 }
 .container-kanan-10 img{
     object-fit: contain;
@@ -554,14 +554,14 @@ body{
     flex-direction: column;
     white-space: wrap;
     gap: 2cqw;
-    margin-top: 2cqw;
+    margin: 2cqw 6cqw;
 }
 .wrapper-countdown-1{
     display: flex;
     align-items: center; 
     justify-content: space-between;
     flex-direction: row;
-    gap: 15cqw;
+    gap: 10cqw;
 }
 .wrapper-countdown-2{
     display: flex;
@@ -573,24 +573,24 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 5cqw;
+    gap: 6cqw;
 }
 .number{
-    font-size: 6cqw;
+    font-size: 8cqw;
     font-weight: bold;
 }
 .label{
     display: flex;
-    margin: auto;
-    font-size: 4cqw;  
+    margin-top: auto;
+    font-size: 5cqw;  
 }
 .wrapper-countdown-2{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin: 5cqw 10cqw;
+    margin-top: 5cqw;
 }
 .wrapper-countdown-2 button{
     color: #fff;
@@ -638,7 +638,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 3cqw auto 0.5cqw;
+    margin: 3cqw auto 1cqw;
     gap: 1cqw;
 }
 .wrapper-moment-1,
@@ -741,7 +741,7 @@ body{
 .btn-outline,
 .btn-solid{
     margin: auto 3cqw;
-    padding: 1cqw;
+    padding: 2cqw;
     font-size: 3.5cqw;
     font-weight: 600;
     font-family: "Cormorant Garamond", serif;
@@ -763,21 +763,22 @@ body{
     text-transform: uppercase;
 }
 .form-absensi select{
-    padding: 1cqw;
+    padding: 2cqw;
     text-align: center;
     margin: auto 3cqw;
     font-style: italic;
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     cursor: pointer;
+    font-size: 3.5cqw;
 }   
 .submit-btn{
     margin: 2cqw 35cqw;
-    padding: 0.5cqw;
+    padding: 1.7cqw;
     background-color: #000;
     color: #fff;
     font-family: "Cormorant Garamond", serif;
-    font-size: 3cqw;
+    font-size: 3.5cqw;
     cursor: pointer;
 }
 .decore-3{
@@ -796,16 +797,16 @@ body{
     gap: 1cqw;
 }
 .container-kanan-13 h3{
-    font-size: 4cqw;
+    font-size: 6cqw;
 }
 .container-kanan-13 span{
     text-align: center;
-    font-size: 3cqw;
-    margin: 2cqw auto;
+    font-size: 3.5cqw;
+    margin: 4cqw auto;
 }
 .container-kanan-13 button{
     width: 90%;
-    padding: 1cqw;
+    padding: 2cqw;
     font-size: 2;
     font-style: italic;
     font-family: "Cormorant Garamond", serif;
@@ -815,7 +816,8 @@ body{
 .btn-hadiah{
     font-size: 3.5cqw;
     font-weight: 600;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
     margin: 2cqw auto;
 }
 .container-kanan-13 .image{
@@ -836,11 +838,10 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 4cqw;
-    margin-bottom: 15cqw;
+    margin: 15cqw auto;
 }
 .container-kanan-14 h3{
     font-size: 6cqw;
-    font-style: italic;
     margin-bottom: 8cqw;
 }
 
@@ -868,13 +869,15 @@ body{
     gap: 3cqw;
 }
 .kirim-pesan-section form input{
-    padding: 1.5cqw;
+    padding: 2cqw;
     border: 2px solid #000;
 }
 .kirim-pesan-section form input::placeholder{
-    font-size: 3cqw;
+    font-size: 3.5cqw;
     color: #000;
     text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
 }
 .kirim-pesan-section form textarea{
     padding: 2cqw;
@@ -883,17 +886,17 @@ body{
     resize: none;
     line-height: 4cqw;
     letter-spacing: 0.1cqw;
-    font-size: 3cqw;
+    font-size: 3.5cqw;
     font-weight: 600;
     font-family: "Cormorant Garamond", serif;
 
 }
 .kirim-pesan-section button{
-    padding: 0.5cqw 12cqw;
+    padding: 1.5cqw 12cqw;
     background-color: #000;
     color: #fff;
     font-family: "Cormorant Garamond", serif;
-    font-size: 3cqw;
+    font-size: 3.5cqw;
     margin-left: auto;
 }
 .ucapan-section{
@@ -948,5 +951,3 @@ body{
     font-weight: normal;
     margin: auto;
 }
-
-
