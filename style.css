@@ -204,7 +204,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 8cqw auto;
+    margin: 6cqw auto;
    
 }
 .hari h2,
@@ -214,16 +214,13 @@ body{
     white-space: nowrap;
     letter-spacing: 0.4cqw;
 }
-.tanggal{
-    margin: 5cqw auto 4cqw;
-}
 .img-container{ 
     display: flex;
     flex-direction: row;
     margin-top: 3cqw;
 }
 .qoutes{
-    margin: 10cqw 5cqw;
+    margin: 6cqw 6cqw;
     text-align: center;
 }
 .qoutes blockquote p{
@@ -238,7 +235,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 1cqw;
-    margin: 5cqw auto 20cqw;
+    margin: 5cqw auto 10cqw;
 }
 
 /* container 4 */
@@ -951,3 +948,5 @@ body{
     font-weight: normal;
     margin: auto;
 }
+
+
