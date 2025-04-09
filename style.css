@@ -757,6 +757,8 @@ body{
     color: #fff;
 }
 .label-jumlah-tamu{
+    appearance: none;
+    -webkit-appearance: none;
     margin: 5cqw auto;
     font-size: 4cqw;
     font-weight: bold;
