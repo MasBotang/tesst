@@ -761,6 +761,7 @@ body{
     font-size: 4cqw;
     font-weight: bold;
     text-transform: uppercase;
+    border-radius:0;
 }
 .form-absensi select{
     padding: 2cqw;
