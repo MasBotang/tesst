@@ -787,7 +787,7 @@ body{
     cursor: pointer;
 }
 .decore-3{
-    background-image: url(/img/decore-3.png);
+    background-image: url(./img/decore-3.png);
     background-size: cover;
     width: 100%;
     height: 30cqw;
