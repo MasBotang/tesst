@@ -757,13 +757,10 @@ body{
     color: #fff;
 }
 .label-jumlah-tamu{
-    appearance: none;
-    -webkit-appearance: none;
     margin: 5cqw auto;
     font-size: 4cqw;
     font-weight: bold;
-    text-transform: uppercase;
-    border-radius:0;
+    text-transform: uppercase;   
 }
 .form-absensi select{
     padding: 2cqw;
@@ -774,6 +771,9 @@ body{
     font-weight: bold;
     cursor: pointer;
     font-size: 3.5cqw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }   
 .submit-btn{
     margin: 2cqw 35cqw;
