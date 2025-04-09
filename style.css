@@ -765,6 +765,8 @@ body{
 .form-absensi select{
     padding: 2cqw;
     text-align: center;
+    text-align-last: center; 
+    color: #000;
     margin: auto 3cqw;
     font-style: italic;
     font-family: "Cormorant Garamond", serif;
